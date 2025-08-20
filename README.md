@@ -42,7 +42,7 @@ Proyek ini merupakan bagian dari **Capstone Project – Student Developer Initia
 ## Setup Instructions
 1. Clone repository:  
    ```bash
-   git clone https://github.com/username/kosmokost.git
+   git clone https://github.com/nonilisurante-hash/kosmokost.git
 
 2. Import database:
    - Buka phpMyAdmin

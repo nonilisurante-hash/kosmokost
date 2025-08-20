@@ -1,0 +1,153 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  
+}
+
+.main {
+    background-color: #ffffff !important;
+}
+
+/* HEADER */
+.header, .navbar {
+    background-color: #343a40 !important;
+}
+
+.header .brand {
+    color: #f8f9fa !important;
+}
+
+.header .nav-link {
+    color: #f8f9fa !important;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+.header .nav-link:hover {
+    color: rgba(52, 76, 85, 0.815) !important;
+
+  }
+/* AKHIR HEADER */
+
+/* CONTENT DASHBOARD USER*/
+
+h2.subcontent {
+  text-align: center !important;
+  font-size: 2.5rem;
+  /* display: inline-block; */
+  /* margin: auto;
+  border-bottom: 2px solid #6b7e81;
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+  color: #2c3e50; */
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+/* .card.kamar{
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card.kamar:hover {
+  transform: scale(1.05);
+} */
+
+.kamar.card-body {
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+  color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+/* AKHIR CONTENT */
+
+/* FOOTER */
+
+.footer {
+  margin-top: auto; /* Memastikan footer bergerak ke bawah */
+}
+
+.footer-basic {
+    padding:40px 0;
+    color: white !important;
+    background-color: rgba(33, 37, 41) !important;
+  }
+  
+  footer .container .row .col {
+    color: white;
+  }
+
+  footer a i {
+    color: white;
+    
+}
+
+
+footer a:hover i {
+    color: #f1f1f1; 
+}
+
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+
+    .back-to-top {
+    position: relative;
+    z-index: 2; 
+    }
+
+    .back-to-top .btn-dark {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        padding: 0;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #2e2e2e;
+        border-color: #2e2e2e;
+        display: none;
+        z-index: 999;
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear; 
+    }
+
+      .back-to-top .btn-dark:hover 
+      {
+        cursor: pointer;
+        background: rgba(84, 143, 167, 0.815);
+        border-color: rgba(84, 143, 167, 0.815); 
+    }
+
+    .back-to-top .active {
+        bottom: 32px;
+        pointer-events: auto;
+        opacity: 1;
+    }
+
+    html {
+        scroll-behavior: smooth;
+
+
+    }
+
+/* AKHIR FOOTER */
+
+
+/* CONTENT HOME USER*/
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Memastikan wrapper mengisi seluruh tinggi viewport */
+}
+/* AKHIR CONTENT */
+
